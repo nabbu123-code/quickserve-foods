@@ -1,0 +1,27 @@
+@extends('layouts.app')
+
+@section('content')
+
+<div class="container py-5">
+
+<h1>Contact Us</h1>
+
+<form>
+
+<input class="form-control mb-3" placeholder="Name">
+
+<input class="form-control mb-3" placeholder="Email">
+
+<textarea class="form-control mb-3"></textarea>
+
+<button class="btn btn-primary">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+@endsection
